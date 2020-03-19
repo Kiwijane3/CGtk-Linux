@@ -1,7 +1,8 @@
+// swift-tools-version:5.1
 import PackageDescription
 
 let package = Package(
     name: "CGtk-Linux",
     pkgConfig: "gtk+-3.0",
-    providers: [.Apt("libgtk-3-dev clang")]
+    providers: [.apt(["libgtk-3-dev", "clang"])]
 )
