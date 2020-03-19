@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "CGtk-Linux",
+    name: "CGtk",
     pkgConfig: "gtk+-3.0",
     providers: [.apt(["libgtk-3-dev", "clang"])]
 )
